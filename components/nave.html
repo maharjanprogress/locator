@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>LocatoR - Location review</title>
+  </head>
+
+  <body style="overflow-y: scroll">
+    <nav class="navbar">
+      <div class="container flex">
+        <div class="left">
+          <a href=""><img src="../images/img.jpg" alt="" srcset="" /></a>
+        </div>
+
+        <div class="right">
+          <ul class="flex">
+            <a href="admin.php"><li id="home">Add Place</li></a>
+            <a href="addevent.php"><li id="about">Add Event</li></a>
+            <a href="review.php"><li id="support">Mod Reviews</li></a>
+              <a href="client-query.php"><li id="contact">View Client Queries</li></a>
+          </ul>
+        </div>
+      </div>
+      <div id="theSwitch">
+        <div class="switchContainer">
+          <input
+            type="checkbox"
+            class="checkbox"
+            id="checkbox"
+            onclick="err()"
+          />
+          <label class="switch" for="checkbox">
+            <span class="slider"></span>
+          </label>
+        </div>
+        <p class="component-title">Logged Out</p>
+      </div>
+    </nav>
+    <script src="../js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e87b42cfc1.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

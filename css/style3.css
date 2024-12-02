@@ -1,0 +1,84 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F1E3D8;
+    height: 42rem;
+  }
+  
+  #top {
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  #signup {
+    width: 21rem;
+    height: 34rem;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 0;
+  }
+  
+  #login {
+    width: 21rem;
+    height: 23.5rem;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 0;
+  }
+  
+  #bod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  
+  .inp {
+    width: 65%;
+    padding: 10px 0;
+  }
+  
+  #bod button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  #bod button:hover {
+    background-color: #e15f97;
+    color: white;
+    transition: all 0.25s ease;
+    cursor: pointer;
+  }
+  
+  #bod input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: 2rem;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .alert {
+    height: 3.5rem;
+    background: #d8ffae;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .error {
+    height: 3.5rem;
+    background: #fff3a2;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }

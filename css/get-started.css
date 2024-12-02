@@ -1,0 +1,88 @@
+.destinations {
+    display: flex;
+    margin: 15px 11rem;
+    /* border: 1px solid black; */
+    /* padding: 10px; */
+  }
+  
+  .destinations a {
+    text-decoration: none;
+    color: black;
+  }
+  .destinations a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .content-image img {
+    height: 12rem;
+    width: 20rem;
+  }
+  
+  .text {
+    margin: 0 15px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 11rem;
+  }
+  
+  #search {
+    height: 35px;
+    width: 15rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+  }
+
+  .top button {
+    height: 35px;
+    width: 4rem;
+  }
+  
+  .main img {
+    height: 30rem;
+    /* width: 100%; */
+  }
+  
+  .int {
+    height: 20rem;
+  }
+  
+  .about {
+    /* display: flex;
+    flex-direction: column; */
+    margin: 1.5rem;
+  }
+  
+  .about h3 {
+    margin-top: 20px;
+  }
+  
+  .about h1 {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #searchBox{
+    height: 43rem;
+    min-width: 37rem;
+    position: fixed;
+    width: 30px;
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 35px 40px;
+    border-radius: 5px;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    text-align: center;
+  }
+  
+  #searchBox.active {
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 0.25s ease-in-out;
+  }
